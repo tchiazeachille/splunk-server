@@ -1,0 +1,29 @@
+# Disk DescriptorFile
+version=1
+encoding="windows-1252"
+CID=f7a1f962
+parentCID=ffffffff
+createType="twoGbMaxExtentSparse"
+
+# Extent description
+RW 8323072 SPARSE "Splunk Server-s001.vmdk"
+RW 8323072 SPARSE "Splunk Server-s002.vmdk"
+RW 8323072 SPARSE "Splunk Server-s003.vmdk"
+RW 8323072 SPARSE "Splunk Server-s004.vmdk"
+RW 8323072 SPARSE "Splunk Server-s005.vmdk"
+RW 8323072 SPARSE "Splunk Server-s006.vmdk"
+RW 8323072 SPARSE "Splunk Server-s007.vmdk"
+RW 4653056 SPARSE "Splunk Server-s008.vmdk"
+
+# The Disk Data Base 
+#DDB
+
+ddb.adapterType = "lsilogic"
+ddb.geometry.cylinders = "3916"
+ddb.geometry.heads = "255"
+ddb.geometry.sectors = "63"
+ddb.longContentID = "c8612d8be1607e354de3471af7a1f962"
+ddb.toolsInstallType = "4"
+ddb.toolsVersion = "12389"
+ddb.uuid = "60 00 C2 94 f9 48 35 19-b1 28 59 57 ca e0 fa f4"
+ddb.virtualHWVersion = "20"
